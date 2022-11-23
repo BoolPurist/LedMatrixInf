@@ -18,7 +18,7 @@ cargo install cross --git https://github.com/cross-rs/cross
 
 Execute the shell script build.sh under the project root.
 
-### What happens during ?
+### What happens during building ?
 It cross compiles the app into for arm cpu as 64 bit and copies it to the raspberry pie.
 Cross builds the app in a container with the needed compiler via podman. 
 Make sure the raspberry pie is on and can be accessed via ssh !
